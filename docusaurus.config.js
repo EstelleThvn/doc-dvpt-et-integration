@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Développement et Intégration',
-  tagline: 'Notes de séances',
+  tagline: 'MMI S3',
   favicon: 'img/logo-website.png',
 
   // Set the production url of your site here
@@ -43,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -60,9 +60,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Estelle Thouvenin',
+        title: 'Accueil',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo-website.png',
         },
         items: [
@@ -71,6 +71,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Cours',
+          },
+          {
+            to: '/autres-supports',
+            label: 'Autres supports',
+            position: 'left',
           },
           // {
           //   href: 'https://github.com/EstelleThvn',
@@ -91,7 +96,7 @@ const config = {
               },
               {
                 label: 'Autres supports',
-                to: '/supports',
+                to: '/autres-supports',
               },
             ],
           },
@@ -112,7 +117,7 @@ const config = {
             items: [
               {
                 label: 'Repo GitHub',
-                href: 'https://github.com/EstelleThvn',
+                href: 'https://github.com/EstelleThvn/doc-dvpt-et-integration',
               }
             ],
           }

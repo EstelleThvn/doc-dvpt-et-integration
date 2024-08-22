@@ -4,31 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Consolidation des connaissances en Javascript',
-    Svg: require('@site/static/img/checkmark.svg').default,
-    description: (
-      <>
-        En appliquant la syntaxe de Javascript moderne
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/project.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Consolider et approfondir',
     Svg: require('@site/static/img/link.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        les notions de base du développement en Javascript
+      </>
+    ),
+  },
+  {
+    title: 'Syntaxe ES6+',
+    Svg: require('@site/static/img/checkmark.svg').default,
+    description: (
+      <>
+        Apprendre à utiliser une syntaxe Javascript moderne dans ses projets
+      </>
+    ),
+  },
+  {
+    title: 'Profils dev & créa',
+    Svg: require('@site/static/img/project.svg').default,
+    description: (
+      <>
+        Donner des pistes à chaque profil pour mettre en œuvre des projets web plus riches
       </>
     ),
   },
