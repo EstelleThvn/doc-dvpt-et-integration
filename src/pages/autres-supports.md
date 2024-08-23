@@ -5,7 +5,7 @@ title: Page autres supports
 # Autres supports
 
 
-:::tip[Infos]
+:::info[Info]
 
 Ici vous pouvez consulter des supports présentant les bases en Javascript.
 
@@ -13,11 +13,11 @@ Ici vous pouvez consulter des supports présentant les bases en Javascript.
 
 ## Aide-mémoire : manipuler le DOM en Javascript
 
-**[Voir l'aide mémoire](./assets/JsDOM-AideMemoire-2024.pdf)** (Rédigé par P. Gambette)
+**[Voir l'aide mémoire](/assets/JsDOM-AideMemoire-2024.pdf)** (Rédigé par P. Gambette)
 
 ## Glossaire Javascript
 
-**[Voir le glossaire](./assets/R112-Glossaire-Javascript.pdf)** (Rédigé par P. Gambette)
+**[Voir le glossaire](/assets/R112-Glossaire-Javascript.pdf)** (Rédigé par P. Gambette)
 
 ## Notes de cours Javascript
 
