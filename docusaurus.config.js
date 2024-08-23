@@ -13,15 +13,16 @@ const config = {
   favicon: 'img/logo-website.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://estellethvn.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/doc-dvpt-et-integration/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'EstelleThvn', // Usually your GitHub org/user name.
-  projectName: 'doc-developpement-et-integration', // Usually your repo name.
+  projectName: 'doc-dvpt-et-integration', // Usually your repo name.
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
