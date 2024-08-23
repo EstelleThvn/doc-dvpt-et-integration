@@ -2,6 +2,12 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+### What you'll need
+
+- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- un gestionnaire de paquets : NPM (ou yarn)
+
 ### Installation
 
 ```
