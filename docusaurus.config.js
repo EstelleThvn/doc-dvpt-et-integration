@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Développement et Intégration',
-  tagline: 'MMI S3',
+  tagline: 'MMI S3 - séances animées par Estelle',
   favicon: 'img/logo-website.png',
 
   // Set the production url of your site here
