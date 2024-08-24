@@ -74,8 +74,8 @@ const config = {
             label: 'Cours',
           },
           {
-            to: '/autres-supports',
-            label: 'Autres supports',
+            to: '/resources',
+            label: 'Ressources',
             position: 'left',
           },
           // {
@@ -96,8 +96,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Autres supports',
-                to: '/autres-supports',
+                label: 'Ressources',
+                to: '/resources',
               },
             ],
           },

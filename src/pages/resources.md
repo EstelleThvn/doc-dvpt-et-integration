@@ -1,8 +1,8 @@
 ---
-title: Page autres supports
+title: Page de ressources
 ---
 
-# Autres supports
+# Ressources
 
 ## Notions Javascript
 
@@ -23,7 +23,7 @@ Ici vous pouvez consulter des supports présentant les bases en Javascript.
 ### Notes de cours Javascript
 
 Notes de cours supplémentaires sur le language Javascript. 
-Contient aussi une sections sur D3.js (bibliothèque de création de data visualization avancée) pour ceux qui sont intéressés.
+Contient aussi une section sur D3.js (bibliothèque de création de data visualization avancée) pour ceux qui sont intéressés.
 
 **[Voir le site](https://igm.univ-mlv.fr/~bulteau/mmi/index.html)** (Rédigé par L. Bulteau)
 
