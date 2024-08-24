@@ -123,7 +123,7 @@ const config = {
             ],
           }
         ],
-        copyright: `Documentation rédigée par Estelle Thouvenin.</br>Copyright © ${new Date().getFullYear()}. Construit avec <a href="https://docusaurus.io/">Docusaurus</a>.`,
+        copyright: `Documentation rédigée par Estelle Thouvenin.</br>Copyright © ${new Date().getFullYear()}. Construit avec <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>. Illustrations par Getillustrations <a href="https://www.getillustrations.com/illustration-pack/halftone-illustrations" target="_blank">Halftone illustrations</a>.`,
       },
       prism: {
         theme: prismThemes.github,
