@@ -26,7 +26,7 @@ Toutes ces notions prérequises ont étés abordées dans vos cours de Javascrip
 
 :::tip[Ressources]
 
-Si vous ressentez quelques lacunes concernant les prérequis de développement en Javascript, vous pouvez consulter la page de **[ressources](/resources)** à ce cours. Elle contient l'aide-mémoire sur la manipulation du DOM et le glossaire Javascript qui vous ont été partagés en MMI 1. 
+Si vous ressentez le besoin de consulter les prérequis de développement en Javascript, vous pouvez les retrouver sur la page de **[ressources](/resources)**. Elle contient l'aide-mémoire sur la manipulation du DOM et le glossaire Javascript qui vous ont été partagés en MMI 1. 
 
 La page contient aussi un lien vers des notes de cours supplémentaires sur le language Javascript. Vous retrouverez dans ces notes des notions de base du language qui pourront toujours vous être utiles.
 
