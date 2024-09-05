@@ -13,7 +13,7 @@ Faire du **Clean Code**, c'est écrire un code qui est clair, compréhensible, e
 
 > Make it work, make it right, make it fast.
 
-Avant toute chose, il est important de rappeler qu'il est préférable d'avoir un code qui marche, que d'avoir un code propre mais qui ne marche pas. L'important est de tout d'abord faire un code qui marche, et dans un second temps d'analyser le code écrit pour le rendre plus propre : refactoriser le code dupliqué, le découper en fonctions plus petites, donner les noms plus clairs aux variables et fonctions...
+Avant toute chose, il est important de rappeler qu'il est préférable d'avoir un code qui marche, que d'avoir un code propre mais qui ne marche pas. L'important est de tout d'abord faire un code qui marche, et dans un second temps d'analyser le code écrit pour le rendre plus propre : refactoriser le code dupliqué, le découper en fonctions plus petites, donner des noms plus clairs aux variables et fonctions...
 
 :::
 
@@ -49,7 +49,7 @@ Si vous écrivez une fonction qui devient de plus en plus grande, séparez-la en
 
 Plus largement dans un projet, découpez vos fichiers en fonctions de leurs tâches. Un fichier ne devrait avoir qu'une responsabilité globale. Si par exemple vous commencez à accumuler plein de petites fonctions utiles (conversion, calculs mathématiques simples...), il peut être intéressant de toutes les rassembler dans un nouveau fichier `utils.js`, et d'appeler ces fonctions dans vos autres fichiers (en utilisant des [modules](https://www.w3schools.com/js/js_modules.asp)).
 
-En plus du principe d'éviter la redondance (principe DRY), découper son code en plus petites fonctions rend votre code bien plus lisible (et même si cette nouvelle fonction intermédiaire n'est utilisé qu'à un seul endroit !).
+En plus du d'éviter la redondance (principe DRY), découper son code en plus petites fonctions rend votre code bien plus lisible (et même si cette nouvelle fonction intermédiaire n'est utilisé qu'à un seul endroit !).
 
 :::tip[Astuce]
 
