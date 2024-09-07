@@ -44,6 +44,6 @@ Les exercices faits en TP et TD ne sont pas notés. En revanche, une évaluation
 
 ### Fonctionnement des séances
 
-1. Télécharger le dossier zip du TD, les exercices des énoncés se feront à partir de cette base.
-2. Décompresser le dossier et ouvrir les fichiers contenus dedans avec un éditeur de code.
-3. Ouvrir `index.html` dans un navigateur.
+1. **Suivez l'énoncé qui vous est partagé.** Des notions supplémentaires utiles à la compréhension de chaque énoncé se trouvent dans la **[partie TD](./category/td)** de ce support.
+2. **Finissez l'énoncé de la séance pour la séance suivante.**
+3. **Une correction vous sera partagée** la séance suivant la fin de l'énoncé précédent. Les correctifs seront disponibles sur la **[page de séances](/seances)**

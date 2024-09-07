@@ -74,6 +74,11 @@ const config = {
             label: 'Cours',
           },
           {
+            to: '/seances',
+            label: 'Séances',
+            position: 'left',
+          },
+          {
             to: '/resources',
             label: 'Ressources',
             position: 'left',
@@ -94,6 +99,10 @@ const config = {
               {
                 label: 'Notes de cours',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Séances',
+                to: '/seances',
               },
               {
                 label: 'Ressources',
