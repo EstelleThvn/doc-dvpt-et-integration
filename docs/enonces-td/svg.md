@@ -72,10 +72,14 @@ const svgElement = document.querySelector("svg");
 // ajout d'un élément <path> dans le svg
 svgElement.innerHTML += `<path style="fill:blue;" d="M 0 0 L 10 0 L 10 100 L 0 100 L 0 0" />`;
 
-// comme sur des balises html, on peut prévoir des évènements sur les éléments svg
+// comme sur des balises html, on peut prévoir des évènements sur les éléments SVG
 svgElement.querySelectorAll("path").forEach(path => {
     path.addEventListener("mouseenter", function(event) {
         this.style.fill = "red";
     });
 });
+
+// La propriété CSS transform peut être utile pour facilement positionner des éléments SVG ou paramétrer des animations
+svgElement.innerHTML += `<rect style="fill:blue;transform:translateY(100%)scale(1,-1);" x="0" y="0" width="10" height="50" />`;
+// Ici, scale(1,-1) retourne verticalement le rectangle
 ```
