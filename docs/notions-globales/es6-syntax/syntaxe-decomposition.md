@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Syntaxe de décomposition
 
-`...` permet de décomposer un itérable (tableau ou objet) en chacun de ces éléments
+`...` permet de décomposer un itérable (tableau ou objet) en chacun de ses éléments
 
 ```js
 const fruits1 = ['pomme', 'kiwi'];
