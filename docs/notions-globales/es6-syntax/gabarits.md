@@ -5,16 +5,16 @@ sidebar_position: 3
 # Gabarits
 
 ```js
-`Pour insérez une ${variable} à l'intérieur d'une chaine de caractère`
+`Pour insérez une ${variable} à l'intérieur d'une chaîne de caractère`
 ```
 
-Les gabarits permettent d'inclurent des variables ou expressions à l'intérieur d'une chaine de caractère.
+Les gabarits permettent d'inclurent des variables ou expressions à l'intérieur d'une chaîne de caractère.
 
 Comment l'utiliser : 
-- on utilise des *backticks* ``` `` ``` à la place des guillemets simples `''` ou doubles `""` pour écrire sa chaine de caractères. 
+- on utilise des *backticks* ``` `` ``` à la place des guillemets simples `''` ou doubles `""` pour écrire sa chaîne de caractères. 
 - à l'intérieur des backticks, on utilise `${}` pour imbriquer ses expressions.
 
-Pour construire la chaine finale, tous les éléments présents à l'intérieur des backticks sont concaténés. Les gabarits permettent donc de faire de la concaténation très facilement et en rendant le code plus lisible : 
+Pour construire la chaîne finale, tous les éléments présents à l'intérieur des backticks sont concaténés. Les gabarits permettent donc de faire de la concaténation très facilement et en rendant le code plus lisible : 
 
 ```js
 const a = 5;

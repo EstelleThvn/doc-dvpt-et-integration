@@ -22,7 +22,7 @@ const personnagesModifies = personnages.map(perso => { `${perso} !` })
 ```js
 const personnages = ["Frodon","Sam","Gandalf"];
 const personnagesFiltres = personnages.filter((mot) => mot.length <= 3);
-// personnages = ["Sam"]
+// personnagesFiltres = ["Sam"]
 ```
 
 ## .sort()
@@ -35,7 +35,9 @@ personnages.sort();
 // personnages = ["Frodon","Gandalf","Sam"]
 ```
 
-On peut fournir une fonction à la méthode sort() pour préciser l'ordonnancement que l'on souhaite (**[En savoir plus](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#description)**)
+On peut fournir une fonction à la méthode sort() pour préciser l'ordonnancement que l'on souhaite (**[En savoir plus](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#syntaxe)**)
+
+Si aucune fonction n'est donnée en paramètre à la fonction de comparaison, le tableau est trié selon la valeur de point de code Unicode de chaque caractère.
 
 ## Pour aller plus loin
 
