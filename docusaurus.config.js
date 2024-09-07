@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'Email',
-                href: 'mailto:estelle.thouvenin@univ-eiffel.fr',
+                href: 'mailto:estellethouvenin.contact@gmail.com',
               },
             ],
           },
