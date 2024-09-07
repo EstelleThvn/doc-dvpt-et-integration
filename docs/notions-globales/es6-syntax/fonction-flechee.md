@@ -10,7 +10,11 @@ sidebar_position: 4
 Elles sont à utiliser pour les fonctions courtes, avec peu d'instructions.
 :::
 
-Les fonctions fléchées sont souvent anonymes, c'est-à-dire qu'elle n'ont pas de nom associé
+Les fonctions fléchées sont souvent anonymes, c'est-à-dire qu'elle n'ont pas de nom associé.
+
+:::warning
+    this n’est pas disponible dans les fonctions fléchées : une fonction fléchée ne lie pas son propre this au sein de la fonction.
+::: 
 
 ```js
 // fonction non fléchée
