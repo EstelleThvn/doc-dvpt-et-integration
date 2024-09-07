@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # Gabarits
 
+```js
+`Pour insérez une ${variable} à l'intérieur d'une chaine de caractère`
+```
+
 Les gabarits permettent d'inclurent des variables ou expressions à l'intérieur d'une chaine de caractère.
 
 Comment l'utiliser : 
