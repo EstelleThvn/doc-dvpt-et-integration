@@ -39,16 +39,20 @@ elementDOM.style.width = valeurFinale;
 ## .setInterval()
 
 `setInterval()` permet d'exécuter une fonction à interval régulier, d'après le temps indiqué (en ms).
-On peut donc lui indiquer un temps d'exécuter le code 24x/sec, pour avoir une animation fluide
+On peut donc lui indiquer un temps qui exécute les instructions 24 fois par seconde, pour avoir une animation fluide.
 
 ### Animation infinie
 
 ```js
-const elementDOM = document.querySelector(".element-a-animer");
+const elementDOM = document.querySelector(".element-a-animer"); // width=0px par défaut
+
+let largeur = 0;
 
 setInterval(function () {
-    elementDOM.style.width = `${valeurFinale}px`;
+    largeur += 1;
+    elementDOM.style.width = `${largeur}px`;
 }, 1000/24);
+// 1000/24 : il s'agit ici d'un interval de 24 frames par seconde
 ```
 
 ### Animation avec arrêt
@@ -72,7 +76,7 @@ const intervalId = setInterval(function () {
 ```
 
 :::warning[Attention]
-    `setInterval()` peut rapidement devenir gourmand en ressources, surtout si plusieurs sont utilisés en même temps. Si vous souhaitez en utiliser plusieurs, utilisez `.requestAnimationFrame()` à la place pour améliorer les performances.
+    `setInterval()` peut rapidement devenir gourmand en ressources, surtout si plusieurs `setInterval()` sont utilisés en même temps. Si vous souhaitez en utiliser plusieurs, utilisez `requestAnimationFrame()` à la place pour améliorer les performances.
 :::
 
 ## requestAnimationFrame()
@@ -84,7 +88,7 @@ Contrairement à `setInterval()`, ici, c'est le navigateur qui a la main sur qua
 - Le navigateur peut optimiser l'animation, elle sera donc plus fluide
 - Dans les onglets inactifs, l'animation est mise en pause
 
-C'est pour ces raisons de performance que `requestAnimationFrame()` est la méthode à privilégier par rapport à setInterval(). **Pour animer le `<canvas>`** par exemple, on utilise `requestAnimationFrame()` plutôt que `setInterval()`.
+C'est pour ces raisons de performance que `requestAnimationFrame()` est la méthode à privilégier par rapport à setInterval(). **Pour animer le `<canvas>`** par exemple, il est beaucoup plus courant d'utiliser `requestAnimationFrame()` plutôt que `setInterval()`.
 
 ### Animation infinie
 
