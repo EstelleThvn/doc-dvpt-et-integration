@@ -36,6 +36,23 @@ elementDOM.style.transition = '2s cubic-bezier(.4,0,.2,1)';
 elementDOM.style.width = valeurFinale;
 ```
 
+:::warning
+Si vous ajoutez une animation à un élément du DOM qui a été créé en JS plus tôt dans votre code, il est alors prossible que votre animation ne marche pas en l'état. Cela est dû au fait que l'ajout de la valeur finale se fait trop vite après l'ajout de l'élément dans la page web, ce qui ne laisse pas le temps au navigateur d'initialiser l'élément avec la valeur initiale. Autrement dit, la valeur finale est ajoutée si vite que la valeur initiale est directement sautée et la transition n'a pas le temps de se faire.
+
+Pour régler ce problème, on utilise setTimeout(fonction,0) pour s'assurer que les changements dans la page web suite à l'ajout de l'élément aient bien fini de se faire avant de lancer la transition CSS avec la valeur finale.
+
+```js
+// highlight-next-line
+setTimeout(function(){
+    const element = document.querySelector(".element-a-animer"); // width=0px par défaut
+    
+    element.style.transition = '2s cubic-bezier(.4,0,.2,1)';
+    element.style.width = '200px';
+// highlight-next-line
+}, 0);
+```
+:::
+
 ## .setInterval()
 
 `setInterval()` permet d'exécuter une fonction à interval régulier, d'après le temps indiqué (en ms).
