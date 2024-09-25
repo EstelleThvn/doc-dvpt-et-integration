@@ -16,7 +16,7 @@ Vous pouvez retrouver sur cette page les liens vers les énoncés et les correct
 
 **[Voir l'énoncé](https://docs.google.com/document/d/1BBS1kvZy8vODD7zE4PVbA3TN7a20k0B95Tq7Euc9UXE/edit?usp=sharing)**
 
-**[Télécharger le zip de la correction](#)**
+**[Télécharger le zip de la correction](/assets/corrections/01-svg-correction.zip)**
 
 ## 2. Manipulation du canvas
 
