@@ -34,6 +34,14 @@ C'est `<svg></svg>` qui est responsable de la taille de l'image et de ses propor
 - `100` → largeur du viewport
 - `100` → hauteur du viewport
 
+```html
+<svg width="400px" height="400px" viewbox="0 0 100 100">
+     <rect x="50" y="20" width="10" height="10" fill="green" /> 
+</svg>
+```
+
+![Système de coordonnées](/assets/svg-canvas-coordinates-system.svg)
+
 > Les éléments dessinés à l'extérieur de l'espace de la viewBox seront coupés.
 
 #### Dimensions dans la fenêtre
