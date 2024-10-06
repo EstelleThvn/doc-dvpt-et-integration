@@ -22,9 +22,9 @@ Vous pouvez retrouver sur cette page les liens vers les énoncés et les correct
 
 > 2 séances
 
-<!---
-**[Voir l'énoncé](#)**
+**[Voir l'énoncé](https://docs.google.com/document/d/1tCTA9exroqVrBgWWr1GwQ9RLT1RHzYOCpRWmVGjbc-s/edit?usp=sharing)**
 
+<!---
 **[Télécharger le zip de la correction](#)**
 -->
 
