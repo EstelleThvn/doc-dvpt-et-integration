@@ -124,3 +124,39 @@ Pour en savoir plus sur les animations en canvas : voir la documentation **[basi
 ### Manipulation des pixels pour changer les couleurs de l'image
 
 **[Documentation MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)**
+
+### Augmenter la résolution du canvas
+
+Voici une fonction qui augmente la résolution du canvas en fonction de la résolution d'écran de l'utilisateur :
+
+```html title="index.html"
+<canvas id="canvas" width="100" height="100"></canvas>
+```
+
+```js title="script.js"
+function setCanvasToCorrectResolution (canvas, dpr) {
+    const rect = canvas.getBoundingClientRect();
+
+    // On change la taille du canvas par sa taille "réelle"
+    canvas.width = rect.width * dpr;
+    canvas.height = rect.height * dpr;
+    // on zoome le context pour que nos éléments du canvas soient à la bonne taille
+    canvas.getContext("2d").scale(dpr, dpr);
+    // On change la taille dessiné du canvas, la taille qui sera dans la page web
+    canvas.style.width = `${rect.width}px`;
+    canvas.style.height = `${rect.height}px`;
+};
+// récupère le ratio de la résolution et la taille du canvas
+const dpr = window.devicePixelRatio;
+
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+//highlight-next-line
+setCanvasToCorrectResolution(canvas, dpr);
+
+// Ajouter les éléments dans le canvas APRES avoir augmenté la résolution
+ctx.fillStyle = "green";
+ctx.fillRect(0, 0, 100, 100);
+// (...)
+```
