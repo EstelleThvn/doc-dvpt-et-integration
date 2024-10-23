@@ -32,11 +32,9 @@ Vous pouvez retrouver sur cette page les liens vers les énoncés et les correct
 
 > 1 séance
 
-<!---
-**[Voir l'énoncé](#)**
+**[Voir l'énoncé](https://docs.google.com/document/d/1gjdVv7DuFVfq5_vEN6tP8WBzEPC2K-y-t0AyOfx_ICc/edit?usp=sharing)**
 
-**[Télécharger le zip de la correction](#)**
--->
+**[Télécharger le zip de la correction](/assets/corrections/05-audio-correction.zip)**
 
 ## 4. Vidéo
 
