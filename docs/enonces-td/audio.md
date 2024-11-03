@@ -20,8 +20,14 @@ L'API Audio de Javascript `HTMLMediaElement` donne accès aux propriétés et m�
 ```js title="script.js"
 const audio = document.getElementById("audio");
 
-document.getElementById('play').addEventListener('click', function() {
+//Fonction qui lance l'audio
+const playAudio = () => {
     audio.play();
+};
+
+//Évènement qui lance l'audio si l'utilisateur clique sur play
+document.getElementById('play').addEventListener('click', function() {
+    playAudio();
 });
 ```
 

@@ -22,8 +22,14 @@ On retrouve les mêmes méthodes et propriétés disponibles que celles disponib
 ```js title="script.js"
 const video = document.getElementById("video");
 
-document.getElementById('play').addEventListener('click', function() {
+//Fonction qui lance la vidéo
+const playVideo = () => {
     video.play();
+};
+
+//Évènement qui lance la vidéo si l'utilisateur clique sur play
+document.getElementById('play').addEventListener('click', function() {
+    playVideo();
 });
 ```
 
