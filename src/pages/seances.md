@@ -40,8 +40,7 @@ Vous pouvez retrouver sur cette page les liens vers les énoncés et les correct
 
 > 1 séance
 
+**[Voir l'énoncé](https://docs.google.com/document/d/1gKbiHiWLNrFVCECpFu66DgKuaSoHWeX06OJBmMop4k0/edit?usp=sharing)**
 <!---
-**[Voir l'énoncé](#)**
-
 **[Télécharger le zip de la correction](#)**
 -->
