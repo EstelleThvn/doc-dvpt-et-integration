@@ -41,6 +41,5 @@ Vous pouvez retrouver sur cette page les liens vers les énoncés et les correct
 > 1 séance
 
 **[Voir l'énoncé](https://docs.google.com/document/d/1gKbiHiWLNrFVCECpFu66DgKuaSoHWeX06OJBmMop4k0/edit?usp=sharing)**
-<!---
-**[Télécharger le zip de la correction](#)**
--->
+
+**[Télécharger le zip de la correction](/assets/corrections/07-video-correction.zip)**
